@@ -13,5 +13,9 @@ This project presents the design, implementation, and evaluation of a Movie Reco
 
 The system's predictive performance was evaluated using standard metrics (RMSE and MAE) and the Collaborative Filtering model achieved significantly better predictive accuracy, demonstrating its robustness in modeling complex user preferences.
 
-The complete analysis, including all results and findings, is available in the **[Report.pdf](Report.pdf)**, which includes also the full download link for the dataset (`movies.csv` and `ratings.csv`).
-All data ingestion, Exploratory Data Analysis and recommendation logic are implemented directly using Cypher queries in **[Query.cypher](Query.cypher)**. The visualizations (charts and plots) are based on the three raw dataset files included in the repository, **[export.csv](export.csv)**, **[export(2).csv](export(2).csv)**, **[export(3).csv](export(3).csv)**, providing insights into user behavior, genre popularity and predictive ratings evaluation, while the code for the plots realization is available in **[Projects_plots.R](Projects_plots.R)**.
+The complete analysis, including all results and findings, is available in the **[Report.pdf](Report.pdf)**, which also includes the full download link for the primary dataset (`movies.csv` and `ratings.csv`).
+
+## Repository Structure & Tools
+- **[Query.cypher](Query.cypher)**: All data ingestion, Exploratory Data Analysis, and recommendation logic (Cypher / Neo4j).
+- **[Projects_plots.R](Projects_plots.R)**: Code used for the visualizations (chart and plots) (R Language).|
+- **[export.csv](export.csv)**, **[export(2).csv](export(2).csv)**, **[export(3).csv](export(3).csv)**: Raw data files used to generate the R-based charts and analysis plots. 
